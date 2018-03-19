@@ -17,13 +17,13 @@ export class ColorDirective implements OnInit {
       if ($event.key == "ArrowUp") {
 		this.pColor = 'blue';
       }
-      if (event.key == "ArrowDown") {
+      if ($event.key == "ArrowDown") {
 		this.pColor = 'pink';
       }
-      if (event.key == "ArrowLeft") {
+      if ($event.key == "ArrowLeft") {
 		this.pColor = 'purple';
       }
-      if (event.key == "ArrowRight") {
+      if ($event.key == "ArrowRight") {
 		this.pColor = 'green';
       }
     }
